@@ -93,10 +93,10 @@
       top: 0px;
       left: 0px;
       right: 0px;
+      justify-content: space-between;
   }
     nav{
       display: flex;
-      flex-basis: 100%;
       flex-direction: row;
       justify-content: flex-end;
     }
@@ -110,7 +110,6 @@
     .pricing{
       display: flex;
       align-items: center;
-      flex-wrap: nowrap;
     }
     .card{
       flex-basis: 250px;
@@ -119,7 +118,6 @@
       align-items: flex-start;
       justify-content: center;
     }
-
 }
 
   @media (prefers-reduced-motion) {
