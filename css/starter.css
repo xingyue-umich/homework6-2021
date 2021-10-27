@@ -37,15 +37,14 @@ body{
   }
   
   a.skip:focus{
-    top:20px;
+    top: 20px;
     color: black;
     text-decoration-style: solid;
   }
-  
+ 
   *:focus{
     border: 2px solid black;
   }
-
 
   .nav_item a{
     padding: 10px;
